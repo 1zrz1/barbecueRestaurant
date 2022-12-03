@@ -17,7 +17,6 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     private UserDao userDao = new UserDaoImpl();
 
-
     @Override
     public List<Users> getAllUser() throws SQLException, IOException {
         return userDao.getAllUser();

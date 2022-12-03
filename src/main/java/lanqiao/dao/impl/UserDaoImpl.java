@@ -29,11 +29,12 @@ public class UserDaoImpl implements UserDao {
             int id = rs.getInt("ID");
             String username = rs.getString("USERNAME");
             String password = rs.getString("PASSWORD");
-
             Users user = new Users(id, username, password);
             usersList.add(user);
         }
         return usersList;
+
+        /* 测试更改 */
     }
 
     /*
