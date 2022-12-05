@@ -9,6 +9,7 @@ public class Users {
     private int id;
     private String username;
     private String password;
+    private String type;
 
     public int getId() {
         return id;
@@ -34,10 +35,22 @@ public class Users {
         this.password = password;
     }
 
-    public Users(int id, String username, String password) {
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public Users() {
+    }
+
+    public Users(int id, String username, String password, String type) {
         this.id = id;
         this.username = username;
         this.password = password;
+        this.type = type;
     }
 
     @Override
@@ -46,6 +59,7 @@ public class Users {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", type='" + type + '\'' +
                 '}';
     }
 }

@@ -12,14 +12,24 @@ public class Commodity {
     private int number;
     private double purchase;
     private double sell;
+    private String picAddress;
 
-    public Commodity(int id, String name, String sort, int number, double purchase, double sell) {
+    public Commodity(int id, String name, String sort, int number, double purchase, double sell, String picAddress) {
         this.id = id;
         this.name = name;
         this.sort = sort;
         this.number = number;
         this.purchase = purchase;
         this.sell = sell;
+        this.picAddress=picAddress;
+    }
+
+    public String getPicAddress() {
+        return picAddress;
+    }
+
+    public void setPicAddress(String picAddress) {
+        this.picAddress = picAddress;
     }
 
     public int getId() {
