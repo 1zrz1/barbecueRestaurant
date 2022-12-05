@@ -54,6 +54,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -93,6 +101,9 @@
       <recent name="D:\maven\barbecueRestaurant\src\main\java\lanqiao\newUi" />
       <recent name="F:\Project\barbecueRestaurant\src\main\resources" />
       <recent name="F:\Project\barbecueRestaurant\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lanqiao.ui" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.newMain">
@@ -207,9 +218,15 @@
       <updated>1669794247778</updated>
       <workItem from="1669794249548" duration="3063000" />
       <workItem from="1669903753779" duration="9657000" />
-      <workItem from="1670066856732" duration="6184000" />
-      <workItem from="1670100896303" duration="796000" />
-      <workItem from="1670127450062" duration="47183000" />
+      <workItem from="1670040650611" duration="8345000" />
+      <workItem from="1670051885044" duration="8451000" />
+      <workItem from="1670060686665" duration="578000" />
+      <workItem from="1670069897895" duration="3812000" />
+      <workItem from="1670117504281" duration="18148000" />
+      <workItem from="1670141156723" duration="10413000" />
+      <workItem from="1670154605666" duration="1945000" />
+      <workItem from="1670206481708" duration="198000" />
+      <workItem from="1670231593826" duration="7057000" />
     </task>
     <task id="LOCAL-00001" summary="构建基本框架">
       <created>1669910945223</created>
@@ -241,8 +258,15 @@
     <MESSAGE value="构建基本框架" />
     <option name="LAST_COMMIT_MESSAGE" value="构建基本框架" />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lanqiao/ui/jdbc/select.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
