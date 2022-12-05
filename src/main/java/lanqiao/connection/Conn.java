@@ -11,7 +11,7 @@ import java.util.Properties;
 /**
  * @Author 钟荣钊
  * @Date 2022/12/02
- * @Version 1.0
+ * @V ersion 1.0
  */
 public class Conn {
     /*
