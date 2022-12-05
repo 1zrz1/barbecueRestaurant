@@ -13,4 +13,8 @@ import java.util.List;
  */
 public interface UserService {
     List<Users> getAllUser() throws SQLException, IOException;
+    List<Users> getUser(String sql2)throws SQLException;
+    void login(String sql) throws SQLException;
+    void pstmt(int o, String b[][],String v[]) throws SQLException;
+    boolean login(String username, String password,String type);
 }

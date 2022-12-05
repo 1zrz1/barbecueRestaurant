@@ -22,6 +22,25 @@ public class UserServiceImpl implements UserService {
         return userDao.getAllUser();
     }
 
+    @Override
+    public List<Users> getUser(String sql2) throws SQLException {
+        return userDao.getUser(sql2);
+    }
+
+    @Override
+    public void login(String sql1) throws SQLException {
+         userDao.login(sql1);
+    }
+
+    @Override
+    public void pstmt(int o, String b[][],String v[]) throws SQLException {
+        userDao.pstmt( o, b, v);
+    }
+    @Override
+    public boolean login(String username, String password,String type) {
+        return userDao.login(username,password,type);
+    }
+
     /*
     测试方法
      */
