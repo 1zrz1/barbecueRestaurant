@@ -29,10 +29,8 @@ public class Conn {
         Connection conn = DriverManager.getConnection(url, user, password);// 表示数据库的连接对象
         PreparedStatement pstmt = conn.prepareStatement(sql);// 表示SQL语句的对象
         ResultSet rs = pstmt.executeQuery();//执行SQL
-
         return rs;
     }
-
 
     //链接数据库
     public Connection getConnect() throws SQLException{
@@ -51,7 +49,5 @@ public class Conn {
         Connection conn = DriverManager.getConnection(url, user, password);// 表示数据库的连接对象
         return conn;
     }
-
-
 
 }
