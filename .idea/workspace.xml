@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cf12e36-92ae-457c-b2b1-e0ae314972bf" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/UI/Test.java" afterDir="false" />
+    <list default="true" id="3cf12e36-92ae-457c-b2b1-e0ae314972bf" name="变更" comment="1、添加了进货管理界面&#10;功能">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/dao/PurchaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/dao/impl/PurchaseDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lanqiao/service/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Commodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Commodity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/bean/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/connection/Conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/connection/Conn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanqiao/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanqiao/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +44,42 @@
     </option>
   </component>
   <component name="ProjectId" id="2IG3lZORCltfOt1wlyL8usdbKmx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1128" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\bluebridge\code\barbecueRestaurant\src\main\java\lanqiao" />
+      <recent name="D:\桌面\bluebridge\code\barbecueRestaurant\src\main\java\lanqiao\newUi" />
       <recent name="F:\Project\barbecueRestaurant\src\main\resources" />
       <recent name="F:\Project\barbecueRestaurant\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.UserServiceImpl">
-    <configuration name="Conn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanqiao.connection.Conn" />
+  <component name="RunManager" selected="应用程序.newMain">
+    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lanqiao.newUi.MainWindow" />
       <module name="barbecueRestaurant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lanqiao.connection.*" />
+          <option name="PATTERN" value="lanqiao.newUi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanqiao.dao.impl.UserDaoImpl" />
+    <configuration name="PurchaseDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lanqiao.dao.impl.PurchaseDaoImpl" />
       <module name="barbecueRestaurant" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +100,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lanqiao.service.impl.UserServiceImpl" />
+    <configuration name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lanqiao.ui.Stock" />
       <module name="barbecueRestaurant" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lanqiao.service.impl.*" />
+          <option name="PATTERN" value="lanqiao.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lanqiao.ui.Test1" />
+      <module name="barbecueRestaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lanqiao.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="newMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lanqiao.newUi.newMain" />
+      <module name="barbecueRestaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lanqiao.newUi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,9 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.UserServiceImpl" />
-        <item itemvalue="应用程序.UserDaoImpl" />
-        <item itemvalue="应用程序.Conn" />
+        <item itemvalue="应用程序.newMain" />
+        <item itemvalue="应用程序.MainWindow" />
+        <item itemvalue="应用程序.Stock" />
+        <item itemvalue="应用程序.PurchaseDaoImpl" />
+        <item itemvalue="应用程序.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +159,15 @@
       <updated>1669794247778</updated>
       <workItem from="1669794249548" duration="3063000" />
       <workItem from="1669903753779" duration="9657000" />
+      <workItem from="1669965022823" duration="6210000" />
+      <workItem from="1669971764164" duration="7887000" />
+      <workItem from="1669994377006" duration="2261000" />
+      <workItem from="1670039009156" duration="24912000" />
+      <workItem from="1670117759063" duration="35751000" />
+      <workItem from="1670206391622" duration="105000" />
+      <workItem from="1670206656300" duration="12000" />
+      <workItem from="1670227023770" duration="5793000" />
+      <workItem from="1670232977722" duration="13291000" />
     </task>
     <task id="LOCAL-00001" summary="构建基本框架">
       <created>1669910945223</created>
@@ -146,9 +192,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="构建基本框架" />
     <option name="LAST_COMMIT_MESSAGE" value="构建基本框架" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
